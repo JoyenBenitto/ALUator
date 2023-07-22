@@ -12,5 +12,11 @@ def generator(build_dir):
     
     with open(f"{build_dir}/generated.py","w") as fp:
         # Creating the groud  plane and the substrate
-        fp.write(temp.template_sub_and_gnd .format())
+        fp.write(temp.template_alu.format(
+            time = "",
+            parameter_size ="",
+            control_width="",
+            cases="",
+            at_default=""
+        ))
         

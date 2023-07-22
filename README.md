@@ -1,5 +1,5 @@
 # ALUator
-A python package that allows you to generate RISC-V compatible CPU
+A python package that allows you to generate ALU
 
 
 ## Installation
